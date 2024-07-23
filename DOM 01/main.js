@@ -54,3 +54,5 @@ paragrafi.forEach((p) => {
 
 // Chiama Funzioni
 getRandomColor();
+
+
