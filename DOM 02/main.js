@@ -24,7 +24,13 @@ contenitore.appendChild(article);
 contenitore.appendChild(data); 
 // contenitore.appendChild(img); 
 
+    
+    // Alert Messaggio non Inserito
+    if (title.value === '' || article.value === ''){
+        alert('Non hai inserito nessun Testo! Riprova!');
+     };
 
+    
 // Pulizia
 title.value = '';
 article.value = '';
@@ -33,8 +39,3 @@ formatDate.value = '';
 
 });
 
-createArticle.addEventListener('click', () => {
-     if (createArticle === empty){
-        alert('');
-     }
-});
